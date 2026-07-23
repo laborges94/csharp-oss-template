@@ -1,0 +1,67 @@
+## Visual Studio / .NET GitIgnore
+# https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## User-specific files (MonoDevelop/ActiveState ActiveGo)
+*.userprefs
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Release]/
+[Releases]/
+x64/
+x86/
+[ARMs]/
+[ARM64s]/
+bld/
+[Bin]/
+[Obj]/
+[Log]/
+[Logs]/
+
+## Visual Studio 2015/2017/2019/2022 cache directory
+.vs/
+
+## MSTest test Results
+[TestOutcome]/
+[TestResults]/
+
+## NUnit test results
+TestResult.xml
+nunit-agent.log
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Backup & temporary files
+*~
+*.backup
+*.tmp
+*.bak
+
+## OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

@@ -1,23 +1,33 @@
-# Set default behavior to automatically normalize line endings
+# 1. Global configuration and automatic normalization
 * text=auto
 
-# Force LF (Line Feed) for code and configuration files to ensure cross-platform consistency
+# 2. Source code files (Force LF)
 *.cs text eol=lf
-*.csproj text eol=lf
-*.sln text eol=lf
+*.cshtml text eol=lf
+*.razor text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
 *.json text eol=lf
-*.md text eol=lf
-*.yml text eol=lf
-*.yaml text eol=lf
-*.editorconfig text eol=lf
-*.gitignore text eol=lf
-*.gitattributes text eol=lf
 
-# Graphics / Binary files
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.ico binary
-*.pdf binary
-*.zip binary
+# 3. Solution and Project files (Force CRLF for Visual Studio compatibility)
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.props text eol=crlf
+*.targets text eol=crlf
+
+# 4. Block Common Binary Files of .NET
+*.dll binary
+*.pdb binary
+*.exe binary
+*.appsettings.json text
+
+# 5. Optimization of Code Review (Ignore automatically generated code in GitHub/GitLab)
+*.designer.cs linguist-generated=true
+*.g.cs linguist-generated=true
+*.AssemblyAttributes.cs linguist-generated=true
+
+# 6. Export Rules (git archive)
+/.github export-ignore
+/.images export-ignore
+*.md export-ignore

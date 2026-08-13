@@ -25,12 +25,12 @@ Please be respectful and professional in all interactions within this project.
 3. Make your changes.
 4. Ensure your code follows the coding style defined in `.editorconfig`.
 5. Run the tests (`dotnet test`) and make sure they pass.
-6. Commit your changes using Conventional Commit messages (e.g., `feat(auth): add google login provider`).
-7. Push to your fork and submit a pull request to the `main` branch.
+6. Commit your changes using [Conventional Commits](https://www.conventionalcommits.org/) messages (e.g., `feat(auth): add google login provider`).
+7. Push to your fork and submit a pull request to the `main` branch using the [pull request template](pull_request_template.md).
 
 ## Commit Message Style
 
-We use **Conventional Commits**:
+We use [Conventional Commits](https://www.conventionalcommits.org/):
 - `feat(scope): ...` for new features.
 - `fix(scope): ...` for bug fixes.
 - `docs(scope): ...` for documentation.

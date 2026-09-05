@@ -56,6 +56,7 @@ dotnet test
 ├── .editorconfig               # Formatting and style rules
 ├── .gitattributes              # Line endings configuration
 ├── .gitignore                  # Git ignore patterns
+├── AGENTS.md                   # Instructions for AI coding assistants
 ├── LICENSE                     # Open source license (MIT)
 ├── README.md                   # Project documentation
 └── ProjectSolution.slnx        # Project solution

@@ -24,9 +24,10 @@ Please be respectful and professional in all interactions within this project.
 2. Create a branch (`git checkout -b feature/issue-id-short-description`).
 3. Make your changes.
 4. Ensure your code follows the coding style defined in `.editorconfig`.
-5. Run the tests (`dotnet test`) and make sure they pass.
-6. Commit your changes using [Conventional Commits](https://www.conventionalcommits.org/) messages (e.g., `feat(auth): add google login provider`).
-7. Push to your fork and submit a pull request to the `main` branch using the [pull request template](pull_request_template.md).
+5. Write all code, comments, documentation, PR details, and commit messages in **English**.
+6. Run the tests (`dotnet test`) and make sure they pass.
+7. Commit your changes using [Conventional Commits](https://www.conventionalcommits.org/) messages (e.g., `feat(auth): add google login provider`).
+8. Push to your fork and submit a pull request to the `main` branch using the [pull request template](pull_request_template.md).
 
 ## Commit Message Style
 

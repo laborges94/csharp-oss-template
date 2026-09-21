@@ -53,6 +53,7 @@ dotnet test
 ├── tests/                      # Unit & Integration tests
 │   └── ProjectName.Tests/
 ├── docs/                       # Wiki & Documentation 
+├── specs/                      # Spec-Driven Development (SDD) templates, constitution & AI prompts
 ├── .editorconfig               # Formatting and style rules
 ├── .gitattributes              # Line endings configuration
 ├── .gitignore                  # Git ignore patterns
@@ -62,6 +63,17 @@ dotnet test
 └── ProjectSolution.slnx        # Project solution
 
 ```
+
+## 📐 Spec-Driven Development (SDD)
+
+This repository includes a lightweight Spec-Driven Development workflow designed for AI-assisted workflows (e.g., Antigravity, Cursor, Copilot Chat).
+
+- **`specs/constitution.md`**: Foundational project invariants and architectural rules.
+- **`specs/templates/`**: Ready-to-use templates for specifications and technical plans.
+- **`specs/prompts/`**: Structured prompts to guide AI assistants through clarity review, plan generation, and incremental task execution.
+
+See the [specs/README.md](specs/README.md) guide for details on how to use this workflow.
+
 
 ## 🤝 Contributing
 
